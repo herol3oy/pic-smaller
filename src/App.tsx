@@ -24,9 +24,11 @@ export const App = observer(() => {
 
   return (
     <ConfigProvider
+      direction="rtl"
       locale={gstate.locale?.antLocale}
       theme={{
         token: {
+          fontFamily: '"Vazirmatn", sans-serif',
           colorPrimary: "#1da565",
           colorLink: "#1da565",
           colorSuccess: "#1da565",
