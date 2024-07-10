@@ -20,7 +20,7 @@ const Error404 = observer(() => {
     <Flex className={style.container} align="center" justify="center">
       <Result
         status="404"
-        title="404"
+        title="۴۰۴"
         subTitle={gstate.locale?.error404.description}
         extra={backToHome}
       />
